@@ -1,0 +1,50 @@
+ body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        background: linear-gradient(320deg, #46FA6C, #41FAE5,#C0FAE0
+        );
+    }
+    #resultado {
+        font-weight: bold;
+    }
+
+    #altura, #peso {
+        width: 200px;
+        padding: 5px;
+        margin: 5px 0;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+    }
+
+    #botao {
+        background-color: #5cb65f;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #botao:hover {
+        background-color: #408d40;
+    }
+
+    .caixa-formulario {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
